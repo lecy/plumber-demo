@@ -5,7 +5,7 @@ Tutorial on creating a REST API using the **plumbeR** and **plumberDeploy** pack
 
 ## Creating the API with plumbeR 
 
-The following script (from the package demo page) is stored in the file: **plumber/plumber.R**
+The following script (from the package demo page) is stored in the file: [**plumber/plumber.R**](https://github.com/lecy/plumber-demo/blob/main/plumber/plumber.R).
 
 It creates three API endpoints named **/echo**, **/plot**, and **/sum**. 
 ```r
