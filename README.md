@@ -75,7 +75,7 @@ In order to send requests and process the information that is returned from the 
 ```r
 library( curl ) 
 library( httr )
-library ( jsonlite )  # processing 
+library( jsonlite )  # processing 
 ```
 
 ```r
