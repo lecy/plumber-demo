@@ -2,6 +2,7 @@
 
 Tutorial on creating a REST API using the **plumbeR** and **plumberDeploy** packages in R. 
 
+See: https://appsilon.com/r-rest-api/
 
 ## Creating the API with plumbeR 
 
@@ -32,6 +33,25 @@ function() {
 #* @post /sum
 function(a, b) {
   as.numeric(a) + as.numeric(b)
+}
+```
+
+
+**BMF EXAMPLE**
+
+```r
+library( plumber )
+library( dplyr )
+
+data.url <- "https://raw.githubusercontent.com/lecy/plumber-demo/main/data/tinybmf.csv"
+bmf <- read.csv( data.url )
+
+#* Returns nonprofits in the specified subsector
+#* @param ntee
+#* @get /countries
+function( ntee ) {
+  bmf %>%
+    filter( NTEE1 == ntee )
 }
 ```
 
@@ -118,4 +138,10 @@ jsonlite::fromJSON( data.as.json )
 
 
 ## Deploying an API Using plumberDeploy 
+
+See: 
+
+https://github.com/meztez/plumberDeploy
+
+http://cran.nexr.com/web/packages/analogsea/vignettes/doapi.html
 
