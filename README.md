@@ -2,7 +2,11 @@
 
 Tutorial on creating a REST API using the **plumbeR** and **plumberDeploy** packages in R. 
 
-See: https://appsilon.com/r-rest-api/
+See: 
+
+* https://appsilon.com/r-rest-api/
+* https://www.rplumber.io/
+
 
 ## Creating the API with plumbeR 
 
