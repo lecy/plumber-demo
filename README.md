@@ -145,7 +145,11 @@ jsonlite::fromJSON( data.as.json )
 
 See: 
 
-https://github.com/meztez/plumberDeploy
+* https://github.com/meztez/plumberDeploy
+* http://cran.nexr.com/web/packages/analogsea/vignettes/doapi.html
 
-http://cran.nexr.com/web/packages/analogsea/vignettes/doapi.html
+Working with Amazon EC2 instances: 
 
+* https://medium.com/tmobile-tech/using-docker-to-deploy-an-r-plumber-api-863ccf91516d
+* https://mblukac.github.io/posts/2021/05/plumber_AWSEC2/
+* https://datawookie.dev/blog/2017/09/hosting-a-plumber-api-on-aws/
